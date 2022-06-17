@@ -1,0 +1,182 @@
+.navbar {
+    
+    background: #111;
+    color: white;
+    width: 100%;
+  color: white;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
+}
+
+.container {
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -19px;
+}
+
+.left img {
+    height: 100px;
+    width: 182px;
+
+    margin-right: 40px;
+    margin-left: -20px;
+
+
+}
+
+span {
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icon {
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.right img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+  
+}
+
+
+
+
+span {
+    padding: 10px;
+    cursor: pointer;
+    padding-right: 8px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+select {
+    font-family: 'FontAwesome', 'Second Font name';
+    border: none;
+    background: transparent;
+    color: white;
+  }
+ 
+
+.featured {
+  height: 76vh;
+  position: relative;
+}
+  .featured .category {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    padding-left: 100px;
+  }
+    .featured select {
+      cursor: pointer;
+      background-color: var(--main-color);
+      border: 1px solid white;
+      padding: 5px;
+      color: #111;
+      background: white;
+      margin-left: 258px;
+      
+    }
+  
+
+  #genre{
+    z-index: 2;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .info {
+    width: 35%;
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+    .info img {
+      width: 20vw;
+      margin-top: 100px;
+    }
+
+    .desc {
+      margin: 20px 0px;
+      color: rgb(255, 255, 255);
+    }
+
+    .buttons {
+      display: flex;
+      margin-top: -83px;
+      padding-left: 58px;
+    }
+     .buttons button {
+        padding: 5px 20px;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 10px;
+        cursor: pointer;
+     }
+        .play {
+          background-color: white;
+          opacity: .75;
+        }
+
+        .more {
+          background-color: gray;
+          color: white;
+          opacity: .75;
+        }
+
+        .buttons span {
+          margin-left: 5px;
+         
+        }
+     
+.fade_bottom{
+  height: 7.4rem;
+  background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
+}
